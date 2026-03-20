@@ -9,7 +9,7 @@ readme = "./README.md"
 dynamic = ["version"]
 
 dependencies = [
-    "ShopifyAPI==8.2.0",  # update after resolving pyjwt conflict in frappe
+    "ShopifyAPI==8.2.0",
     "boto3~=1.18.65",
 ]
 
