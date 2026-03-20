@@ -1,6 +1,6 @@
 [project]
-name='ecommerce_integrations'
-description='Ecommerce integrations for ERPNext'
+name = "ecommerce_integrations"
+description = "Ecommerce integrations for ERPNext"
 authors = [
     { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
 ]
@@ -9,8 +9,8 @@ readme = "./README.md"
 dynamic = ["version"]
 
 dependencies = [
-    "ShopifyAPI==12.4.0",  # update after resolving pyjwt conflict in frappe
-    "boto3~=1.28.10",
+    "ShopifyAPI==8.2.0",  # update after resolving pyjwt conflict in frappe
+    "boto3~=1.18.65",
 ]
 
 [project.license]
